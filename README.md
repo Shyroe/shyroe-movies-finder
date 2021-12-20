@@ -1,48 +1,65 @@
-# [React Movies Finder (URL)](https://movies-finder.vercel.app/)
+# [NextJS Movies Finder (URL)](https://movies-finder.vercel.app/)
 
-> React Movies Finder is a Next/React/Redux app to find movies and TV shows using the [Movie DB api](https://developers.themoviedb.org/3)
+## Badges
 
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/lazhari/react-movies-finder/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=Lazhari%2Freact-movies-finder&benchmark=INFRASTRUCTURE+SECURITY)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/lazhari/react-movies-finder/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=Lazhari%2Freact-movies-finder&benchmark=CIS+AWS+V1.2)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/lazhari/react-movies-finder/cis_azure)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=Lazhari%2Freact-movies-finder&benchmark=CIS+AZURE+V1.1)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/lazhari/react-movies-finder/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=Lazhari%2Freact-movies-finder&benchmark=PCI-DSS+V3.2)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/lazhari/react-movies-finder/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=Lazhari%2Freact-movies-finder&benchmark=NIST-800-53)
-[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/lazhari/react-movies-finder/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=Lazhari%2Freact-movies-finder&benchmark=HIPAA)
-[![Build Status](https://travis-ci.org/Lazhari/react-movies-finder.svg?branch=master)](https://travis-ci.org/Lazhari/react-movies-finder)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=alert_status)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=security_rating)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=coverage)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=code_smells)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=sqale_index)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=ncloc)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Lazhari_react-movies-finder&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=Lazhari_react-movies-finder)
+![alt](https://img.shields.io/badge/author-Shyroe-orange)
+![alt](https://img.shields.io/badge/languages-4-orange)
+![alt](https://img.shields.io/github/contributors/Shyroe/portfolio-saved.svg?style=flat&color=orange)
+![alt](https://img.shields.io/github/forks/Shyroe/portfolio-saved.svg?color=orange)
 
-Check the latest version [here](https://movies-finder.vercel.app/)
+# ![contents](https://img.icons8.com/color/40/000000/pin.png) Table of Contents
 
-## Installtion and Set up
+- Features
+- Instalation
+- Getting Started
+- FAQ
+- Found a bug ? Missing a specific feature ?
+- Contributing
+- License
 
-### Requirements
+## ![#features](https://img.icons8.com/color/30/000000/rocket.png) Features
 
-- node (v10.x or higher).
-- Yarn or npm
+- Listing Movies and actors based at Movies and TV Shows API;
+- Movies filters by categories (genres);
+- Single Movie information page;
+- Pagination
 
-### Get Start
+## ![built](https://img.icons8.com/color/30/000000/maintenance.png) Instalation
 
-- `git clone https://github.com/Lazhari/react-movies-finder.git`
-- `yarn`
-- `yarn dev`
+**You need to install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-## License
+_git clone https://github.com/Shyroe/repo.git_
 
-The MIT License (MIT)
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-Copyright (c) 2020 Lazhari
+_git clone https://github.com/Shyroe/shyroe-movies-finder.git_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+**Install dependencies**
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+_yarn install_
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## ![start project](https://img.icons8.com/color/30/000000/running--v1.png) Getting Started
+
+Run the following command in order to start the application in a development environment:
+
+_yarn dev_
+
+## ![ask and answer](https://img.icons8.com/nolan/30/faq.png) FAQ
+
+**Question**: What are the tecnologies used in this project?
+
+**Answer**: NextJS; MUI (Material UI); eslint; Typescript; Redux; React Loading bar;.
+
+## ![there is a bug ? check this!](https://img.icons8.com/color/30/000000/mental-state.png) Issues
+
+Feel free to file a new issue with a respective title and description on the the Amazon Next repository. If you already found a solution to your problem, i would love to review your pull request! Have a look at our contribution guidelines to find out about the coding standards.
+
+## ![contribute to project](https://img.icons8.com/color/30/000000/hashtag-2.png) Contributing
+
+Check out the contributing page to see the best places to file issues, start discussions and begin contributing.
+
+## ![License](https://img.icons8.com/color/30/000000/book.png) License
+
+This project is under the MIT license.
+
+Made with love by Shyroe
